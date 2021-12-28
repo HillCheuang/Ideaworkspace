@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T09:05:01.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CRU0KiL9uE-ZCieLDOFR" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T09:06:20.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="taNaOXcCGvs4yP4E7wkL" version="16.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1395" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,14 +144,14 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-85" value="pipeline环境变量以JVM参数传入action代码当中" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1300" y="860" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-88" value="从环境变量中取出代码编写好的配置信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1010" width="120" height="60" as="geometry" />
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-88" value="从环境变量中取出代码编写好的配置信息，解析成ActionParam" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="991" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-90" target="3GCyQnfHTwS9egmK8VGA-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-90" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;ActionParam&lt;/span&gt;&lt;/pre&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="1000" width="210" height="80" as="geometry" />
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-90" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;解析代码在ActionUtil的&lt;/span&gt;gatherActionParam中&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1000" width="330" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
