@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:55:46.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XPcjC1Z4AFlMPZV1LEkH" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:55:56.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bkzzTB6YFzZBJKIPOdDB" version="16.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1078" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-65" target="3GCyQnfHTwS9egmK8VGA-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-65" value="取出configManageNamespaces，根据value值拉取对应的docker分支代码" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-65" value="取出configManageNamespaces，根据value值拉取对应的action代码" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1290" y="340" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
