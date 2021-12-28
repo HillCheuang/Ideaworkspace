@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:13:41.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9XurQ0msaI3Q7RawQinY" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:14:02.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eRF1gJJ-su3oxNJ4jSzP" version="16.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1825" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -123,38 +123,40 @@
         <mxCell id="cHP7Rm-C09i1f7eczNbf-56" value="用户创建工作空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-57" target="cHP7Rm-C09i1f7eczNbf-59">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cHP7Rm-C09i1f7eczNbf-57" value="填写需要相应计算资源的配置（Spark、es等）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-59" target="cHP7Rm-C09i1f7eczNbf-61">
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-70" target="cHP7Rm-C09i1f7eczNbf-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-59" value="执行工作流" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="1590" width="120" height="60" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-70" value="执行工作流" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-61" target="cHP7Rm-C09i1f7eczNbf-63">
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-72" target="cHP7Rm-C09i1f7eczNbf-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-61" value="将该工作流对应的工作空间所有数据库传入到Pipeline的envs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="1730" width="120" height="60" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-72" value="将该工作流对应的工作空间所有数据库传入到Pipeline的envs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-63" target="cHP7Rm-C09i1f7eczNbf-65">
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-74" target="cHP7Rm-C09i1f7eczNbf-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-63" value="action代码开始" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="1870" width="120" height="60" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-74" value="action代码开始" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-65" target="cHP7Rm-C09i1f7eczNbf-67">
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-76" target="cHP7Rm-C09i1f7eczNbf-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-65" value="从环境变量去相应的计算资源数据库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="2010" width="120" height="60" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-76" value="从环境变量去相应的计算资源数据库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="2010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cHP7Rm-C09i1f7eczNbf-67" value="执行代码逻辑" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="2150" width="120" height="60" as="geometry" />
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-77" value="执行代码逻辑" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
