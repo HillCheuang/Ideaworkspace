@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:02:49.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="d-hcJTBjr11-lWUizj72" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:03:14.315Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NMA60ASEzU0ffY3ASQxl" version="16.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,9 @@
         </mxCell>
         <mxCell id="cHP7Rm-C09i1f7eczNbf-54" value="代码结束&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-56" value="用户创建工作空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
