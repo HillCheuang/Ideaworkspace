@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T09:01:49.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4QweyHsv0yqodvpWTDrb" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T09:01:58.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oqT5W4TWgBnUW_SaEhos" version="16.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1581" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,8 +135,11 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-83" value="action代码启动" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="870" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-85" target="3GCyQnfHTwS9egmK8VGA-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-85" value="pipeline环境变量以JVM参数传入action代码当中" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="870" width="210" height="80" as="geometry" />
+          <mxGeometry x="1300" y="860" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
