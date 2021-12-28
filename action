@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:41:54.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dxKT55Bri2v3nFVq1xEC" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:43:30.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Bel9DPEiOmArjNQISJWj" version="16.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1186" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-36" value="在库中添加一条pipeline纪录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-11">
-          <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
+          <mxGeometry x="50" y="140" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-40" value="拉起action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-11">
-          <mxGeometry x="40" y="140" width="100" height="40" as="geometry" />
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-40" value="拉起action代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-11">
+          <mxGeometry x="50" y="240" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-12" value="美孚" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="250" y="110" width="200" height="540" as="geometry">
@@ -54,6 +54,9 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-13" value="Action" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="650" y="110" width="250" height="540" as="geometry" />
         </mxCell>
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-43" value="从环境变量取出对应空间的计算资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-13">
+          <mxGeometry x="60" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="590" as="targetPoint" />
@@ -62,6 +65,11 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-34" target="3GCyQnfHTwS9egmK8VGA-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GCyQnfHTwS9egmK8VGA-40" target="3GCyQnfHTwS9egmK8VGA-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
