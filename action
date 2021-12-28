@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:22:39.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pBleCZzKCvAyjY7T72pf" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:23:31.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="PA1WYhOm5gezT1FjNdMN" version="16.0.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,14 +10,16 @@
         <mxCell id="3GCyQnfHTwS9egmK8VGA-12" value="美孚" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="250" y="110" width="200" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3GCyQnfHTwS9egmK8VGA-12" source="3GCyQnfHTwS9egmK8VGA-15" target="3GCyQnfHTwS9egmK8VGA-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3GCyQnfHTwS9egmK8VGA-12" source="3GCyQnfHTwS9egmK8VGA-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-15" value="用户创建工作空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-12">
           <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3GCyQnfHTwS9egmK8VGA-17" value="选择对应的计算资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-12">
-          <mxGeometry x="30" y="150" width="120" height="50" as="geometry" />
+        <mxCell id="3GCyQnfHTwS9egmK8VGA-19" value="配置工作空间计算资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3GCyQnfHTwS9egmK8VGA-12">
+          <mxGeometry x="40" y="150" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3GCyQnfHTwS9egmK8VGA-13" value="Action" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="650" y="110" width="200" height="450" as="geometry" />
