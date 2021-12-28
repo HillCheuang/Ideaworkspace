@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T06:42:59.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jTb6NNNZAjji1jgKEGyv" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T06:43:30.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="z3xKJ8lFjsn6axEqx-fI" version="16.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2066" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,8 +96,26 @@
         <mxCell id="cHP7Rm-C09i1f7eczNbf-46" value="将数据源信息传入到Pipeline中" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="595" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-48" target="cHP7Rm-C09i1f7eczNbf-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cHP7Rm-C09i1f7eczNbf-48" value="action代码启动" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-50" target="cHP7Rm-C09i1f7eczNbf-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-50" value="从action环境变量中取出相应数据源" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cHP7Rm-C09i1f7eczNbf-52" target="cHP7Rm-C09i1f7eczNbf-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-52" value="执行代码" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHP7Rm-C09i1f7eczNbf-54" value="代码结束&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1155" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
